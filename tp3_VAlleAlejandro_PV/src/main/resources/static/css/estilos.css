@@ -1,0 +1,150 @@
+body{
+	background-color:rgb(0, 64, 128);
+}
+
+/* Estilos para el encabezado */
+#encabezado {
+    background-color: rgb(255, 255, 128);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Estilos para el menú de navegación */
+.nav-menu {
+    background-color: #343a40;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-menu a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+
+.contenido-principal {
+    padding: 20px;
+    background-color: rgb(128, 255, 255);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.seccion {
+    margin-bottom: 20px;
+}
+
+.seccion h2, .seccion h3 {
+    color: #343a40;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+}
+
+.seccion p, .seccion ul, .seccion ol, .seccion table {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.seccion ul, .seccion ol {
+    padding-left: 20px;
+}
+
+.seccion table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.seccion table, .seccion table th, .seccion table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para el contenido adicional */
+.contenido-adicional {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contenido-adicional a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contenido-adicional a:hover {
+    text-decoration: underline;
+}
+
+.contenido-adicional img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Estilos para el pie de página */
+#pie-de-pagina {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#pie-de-pagina a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#pie-de-pagina a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form select, form textarea, form button {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form .radio-group, form .checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
