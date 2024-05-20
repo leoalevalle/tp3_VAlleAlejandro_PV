@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro de Cliente</title>
+    <link rel="stylesheet" href="../static/css/estilos.css">
+</head>
+<body>
+
+<header id="encabezado">
+    <h1>Formulario de Registro de Cliente</h1>
+</header>
+
+<main class="contenido-principal">
+    <form>
+        <label for="dni">DNI (numérico):</label>
+        <input type="number" id="dni" name="dni" required>
+
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+
+        <label>Género:</label>
+        <div class="radio-group">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino">
+            <label for="x">X</label>
+            <input type="radio" id="x" name="genero" value="x">
+        </div>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="domicilio">Domicilio:</label>
+        <input type="text" id="domicilio" name="domicilio" required>
+
+        <label for="provincia">Provincia:</label>
+        <select id="provincia" name="provincia" required>
+            <option value="">Seleccione una provincia</option>
+            <option value="jujuy">Jujuy</option>
+            <option value="salta">Salta</option>
+            <option value="tucuman">Tucumán</option>
+            <option value="catamarca">Catamarca</option>
+            <option value="laRioja">La Rioja</option>
+            <option value="santiagoDelEstero">Santiago del Estero</option>
+        </select>
+
+        <label for="telefono">Número de Teléfono Celular:</label>
+        <input type="tel" id="telefono" name="telefono">
+
+        <label>Categorías de Interés:</label>
+        <div class="checkbox-group">
+            <label for="categoria1">Categoría 1</label>
+            <input type="checkbox" id="categoria1" name="categorias" value="categoria1">
+            <label for="categoria2">Categoría 2</label>
+            <input type="checkbox" id="categoria2" name="categorias" value="categoria2">
+            <label for="categoria3">Categoría 3</label>
+            <input type="checkbox" id="categoria3" name="categorias" value="categoria3">
+        </div>
+
+        <label for="sugerencias">Sugerencias para la Empresa:</label>
+        <textarea id="sugerencias" name="sugerencias" rows="4" cols="50"></textarea>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <label for="aceptaTerminos">
+            <input type="checkbox" id="aceptaTerminos" name="aceptaTerminos" required>
+            Acepto los términos y condiciones
+        </label>
+
+        <label for="recibirInfo">
+            <input type="checkbox" id="recibirInfo" name="recibirInfo">
+            Acepto recibir información relativa a la empresa
+        </label>
+
+        <button type="submit">Enviar</button>
+    </form>
+</main>
+
+<footer id="pie-de-pagina">
+    <p>
+		Todos los derchos reservados.
+    </p>
+</footer>
+
+</body>
+</html>
+l>
